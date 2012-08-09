@@ -1,0 +1,21 @@
+div#main-menu {
+  background-color: inherit;
+}
+div#main-menu ul {
+  background-color: inherit;
+}
+div#main-menu ul li {
+  background-color: inherit;
+}
+div#main-menu ul li ul {
+  background-color: inherit;
+  display: none;
+}
+div#main-menu ul li:hover ul {
+  display: inline;
+  position: absolute;
+}
+div#main-menu ul li ul li {
+  float: none;
+  padding: 2px;
+}

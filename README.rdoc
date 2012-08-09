@@ -1,0 +1,41 @@
+= Query Pulldown
+
+プロジェクトメニューの「チケット」に
+マウスカーソルを重ねるとプルダウンでカスタムクエリを表示する。
+
+
+== インストール
+
+1. RAILS_ROOT/vendor/pluginsに配置する。
+
+2. Redmineを再起動する。
+
+
+== アンインストール
+
+1. RAILS_ROOT/vendor/pluginsから削除する。
+
+2. Redmineを再起動する。
+
+
+== 注意事項
+
+CSSの色設定は、デフォルトのテーマを前提にしています。
+デザインが崩れる場合は、CSSの内容をいじってください。
+
+
+== 動作確認環境
+
+Redmine1.4.4
+FireFox14.0.1 / Google Chrome 19.0.1
+CentOS 6
+Apache2 + Passenger
+Ruby1.8.7
+
+
+== 更新履歴
+
+=== Version 0.0.1
+
+初回リリース。
+自己責任版です。
