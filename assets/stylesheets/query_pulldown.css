@@ -1,14 +1,5 @@
-div#main-menu {
-  background-color: inherit;
-}
-div#main-menu ul {
-  background-color: inherit;
-}
-div#main-menu ul li {
-  background-color: inherit;
-}
 div#main-menu ul li ul {
-  background-color: inherit;
+  background-color: #507AAA;
   display: none;
 }
 div#main-menu ul li:hover ul {
@@ -18,4 +9,7 @@ div#main-menu ul li:hover ul {
 div#main-menu ul li ul li {
   float: none;
   padding: 2px;
+}
+div#main-menu ul li ul li a {
+  font-size: x-small;
 }
